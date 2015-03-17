@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+
+{% load staticfiles %}
+
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Clients App</title>
+</head>
+<body>
+    <img src="{% static "images/logo.png" %}" alt="Gabriel Enterprises" />
+    <h1>Clients App</h1>
+    This is our <strong> {{ app_description }} </strong><br />
+    <a href="/clients/list">List Clients</a><br/>
+
+</body>
+</html>
